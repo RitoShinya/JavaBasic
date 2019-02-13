@@ -12,9 +12,14 @@ public class PTra08_04 {
 		String message = "Hello, world!";
 
 		// ★ メソッドconvertMessageを（変数message）で呼び出してください
+           convertMessage("Hello world");
 
 	}
 
+	public static void convertMessage(String str) {
+		System.out.println ("「" + str + "」");
+
+	}
 	/*
 	 * ★ 以下の仕様でメソッドを作成してください
 	 *
