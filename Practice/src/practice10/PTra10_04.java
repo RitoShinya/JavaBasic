@@ -17,7 +17,7 @@ public class PTra10_04 {
 		// ★ User型の変数が3つ入る配列usersを宣言・確保してください
 
 
-             User[] users = new User[3];
+             User[] users = new User[2];
 
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
              java.util.Scanner scanner = new java.util.Scanner(System.in);
@@ -56,7 +56,9 @@ public class PTra10_04 {
              for (int i = 0; i < users.length; i++) {
 
             	 System.out.println(users[i].userId);
-
+            	 System.out.println(users[i].userNm);
+                 System.out.println(users[i].mail);
+                 System.out.println(users[i].password);
 
              }
 
