@@ -46,6 +46,7 @@ public class Book {
 	/** 出版社 */
 	String publication;
 
+	
 	/**
 	 * 本の情報を文字列で取得します
 	 */
