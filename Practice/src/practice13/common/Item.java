@@ -6,6 +6,11 @@ public class Item {
 	String name;
 	int additionalDamage;
 
+	public Item(String name,int additionalDamage){
+		this.name = name;
+		this.additionalDamage = additionalDamage;
+	}
+
 	public String getName() {
 		return this.name;
 	}
@@ -19,6 +24,9 @@ public class Item {
 	}
 
 	public void setAdditionalDamage(int additionalDamage) {
-		this.additionalDamage =additionalDamage;
+		this.additionalDamage = additionalDamage;
 	}
+
+
+
 }

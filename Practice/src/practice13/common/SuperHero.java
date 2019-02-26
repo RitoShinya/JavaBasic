@@ -7,7 +7,8 @@ public class SuperHero extends Hero{
 
 	}
 	private practice13.common.Item equipment;
-
+	Item power;
+    Item additionalDamage;
 	public Item getEquipment() {
 		return this.equipment;
 	}
@@ -17,8 +18,7 @@ public class SuperHero extends Hero{
 	}
 
 
-
-
-
-	public attack() {
+	void attack(int power, int additionalDamage) {
+        power += additionalDamage;
+   }
 }
