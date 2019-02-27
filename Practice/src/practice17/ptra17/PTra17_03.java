@@ -45,9 +45,12 @@ public class PTra17_03 {
 
 				int num = Integer.parseInt(input);
 
+
+
 				if (answer[i] == num) {
 					score++;
 				}
+
 			}
 		} catch(IOException e) {
 			System.out.println("例外が発生しました");
