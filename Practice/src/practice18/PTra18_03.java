@@ -44,21 +44,20 @@ public class PTra18_03 {
             System.out.println("ファイルが見つかりません");
         }
 
-
-        player.remove(player
-        player.remove(player
-
-            for(entityPlayer b :player) {
-             System.out.println(b.getPosition());
-             System.out.println(b.getName());
-             System.out.println(b.getCountry());
-             System.out.println(b.getTeam());
-
-
+        for (int i = 0; i < player.size(); i++) {
+        	if (player.get(i).getTeam().contains("レアル・マドリード")) {
+				continue;
+			}
+        	if (player.get(i).getTeam().contains("バルセロナ")){
+				continue;
+			}
+	              System.out.println(player.get(i));
+        }
 
 
 
-			System.out.println(b);
+
+
 
 
 
@@ -66,7 +65,7 @@ public class PTra18_03 {
 
 
 		// ★ 削除後のArrayListの中身を全件出力してください
-
+	}
 
 	}
-}
+
