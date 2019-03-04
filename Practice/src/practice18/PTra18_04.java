@@ -48,11 +48,53 @@ public class PTra18_04 {
         Collections.shuffle(player);
 
 
-        for(int num1 = 0; num1 < 1; num1++) {
-        	player.get(num1).getPosition().contains("GK");{
-                System.out.println(player.get(num1));
+
+        for (int i = 0; i < player.size(); i++) {
+        	if (player.get(i).getPosition().contains("GK")){
+            	System.out.println(player.get(i));
+              break;
         	}
+
         }
+
+        int dfCout = 0;
+        for (int i = 0; i < player.size(); i++) {
+        if(player.get(i).getPosition().contains("DF")) {
+    		System.out.println(player.get(i));
+    		dfCout++;
+    		if(dfCout >= 4) {
+    			break;
+    		}
+
+    	}
+	   }
+
+        int mfCount = 0;
+        for (int i = 0; i < player.size(); i++) {
+            if(player.get(i).getPosition().contains("MF")) {
+        		System.out.println(player.get(i));
+             mfCount++;
+             if(mfCount >= 4) {
+            	 break;
+             }
+
+        	}
+    	   }
+
+
+        int fwCount = 0;
+        for (int i = 0; i < player.size(); i++) {
+            if(player.get(i).getPosition().contains("FW")) {
+        		System.out.println(player.get(i));
+            fwCount++;
+            if(fwCount >= 2) {
+        		break;
+        	}
+    	   }
+   }
+	}
+}
+
 
 //
 //        for(int num2 = 0; num2 < 4; num2++) {
@@ -78,6 +120,6 @@ public class PTra18_04 {
 //        }
 
 		// ★ ①のArrayListの中からGK1名、DF4名、MF4名, FW2名をランダムで出力してください
-        }
-	}
+
+
 
