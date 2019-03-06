@@ -2,11 +2,11 @@ package practice14.common;
 
 public class JavaCourse implements Course  {
 
-	public String PREFIX = "【Eラーニング】";
+
 
 
 	public String getCourseName() {
-            return "【Eラーニング】Java";
+            return PREFIX + "Java";
 	}
 
 	public String[] getCourseUnit() {

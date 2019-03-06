@@ -6,7 +6,7 @@ public class Employee extends Person{
 	private int departmentCnt;
 
 	public String getDepartmentNm() {
-		return this.departmentNm;
+		return departmentNm;
 	}
 
 	public void setDepartmentNm(String departmentNm) {
@@ -14,7 +14,7 @@ public class Employee extends Person{
 	}
 
 	public int getDepartmentCnt() {
-		return this.departmentCnt;
+		return departmentCnt;
 	}
 
 	public void setDepartmentCnt(int departmentCnt) {

@@ -59,7 +59,7 @@ public class PTra18_02  {
 
             for (entityPlayer a :player) {
 
-    			System.out.println(a.toString());
+    			System.out.println(a);
     		}
 
 		// ★ ArrayListに格納されているインスタンス全てのtoStringメソッドを実行し、出力してください

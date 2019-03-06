@@ -9,12 +9,11 @@ package practice03;
 public class PTra03_02 {
 	public static void main(String[] args) {
 		// ★ int型の変数numを宣言し、65で初期化してください
-          int num;
-          num=65;
+          int num = 65;
 
-          if (num <= 65) {
+          if (num >= 65) {
               System.out.println("合格です");
-          }else if (num > 65) {
+          }else
               System.out.println("不合格です");
           }
 
@@ -25,4 +24,4 @@ public class PTra03_02 {
 
 
 	}
-}
+

@@ -12,7 +12,7 @@ public class PTra08_04 {
 		String message = "Hello, world!";
 
 		// ★ メソッドconvertMessageを（変数message）で呼び出してください
-           convertMessage("Hello world");
+           convertMessage(message);
 
 	}
 

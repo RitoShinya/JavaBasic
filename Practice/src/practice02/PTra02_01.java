@@ -17,7 +17,7 @@ public class PTra02_01 {
        sum=126*13;
      System.out.println(sum);
 		// ★ 97を6で割ったときの余りを出力してください
-       sum=97/6;
+       sum=97%6;
 
        System.out.println(sum);
 	}

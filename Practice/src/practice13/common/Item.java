@@ -3,8 +3,8 @@ package practice13.common;
 public class Item {
 
 
-	String name;
-	int additionalDamage;
+	private String name;
+	private int additionalDamage;
 
 	public Item(String name,int additionalDamage){
 		this.name = name;

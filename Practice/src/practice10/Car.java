@@ -14,26 +14,37 @@ package practice10;
  * 			ガソリンが負の数になった場合（もう進めない）は-1を返します。
  */
 
+import java.util.Random;
+
 public class Car {
        int serialNo;
        String color;
        int gasoline;
 
+       int run() {
+   		// もう減らせない場合
+   		if (gasoline == 0) {
+   			return -1;
+   		}
 
-       public int run() {
-    	   this.gasoline -= 1;
-    	   int run = new java.util.Random().nextInt(15) + 1;
+   		gasoline--;
 
-    	   if(this.gasoline < 0) {
-    		   return -1;
-    	   } else {
-    		   return run;
-    	   }
+   		Random random = new Random();
+   		int distance = random.nextInt(15) + 1;
+   		return distance;
+   	}
 
 
-       }
+       // int run() {
+    	 //  this.gasoline -= 1;
+    	   //int run = new java.util.Random().nextInt(15) + 1;
+
+    	 //  if(this.gasoline < 0) {
+    		//   return -1;
+    	  // } else {
+    		//   return run;
+    	//   }
+
+
+       //}
 }
-
-
-
-

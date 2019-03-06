@@ -24,17 +24,12 @@ public class PTra06_06 {
 			for (int j = 0; j < i; j++) {
 				System.out.print("■");
 			}
-			    for (int m = 0; m < 5-i ; m++) {
-		            System.out.print("□");
+			for (int m = i; m < 5 ; m++) {
+				System.out.print("□");
 			}
-
-
-
 
 			System.out.println();
 		}
-
-
 
 		//		  for (int i = 1; i <= 5; i++) {
 		//	            System.out.print("□");

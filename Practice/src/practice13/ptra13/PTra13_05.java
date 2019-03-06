@@ -20,17 +20,4 @@ public class PTra13_05 {
 	 * 		name, additionalDamageに初期値を設定するコンストラクタ
 	 * 		上記2つを設定するための引数を持つ
 	 */
-	public static void main(String[] args) {
-
-
-	practice13.common.Item item = new practice13.common.Item();
-
-	      item.setName("本田");
-
-	      item.setAdditionalDamage(100);
-
-	      System.out.println(item.getName());
-	      System.out.println(item.getAdditionalDamage());
-
-	}
 }

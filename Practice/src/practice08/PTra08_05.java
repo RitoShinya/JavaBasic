@@ -16,13 +16,13 @@ public class PTra08_05 {
 
 		// コマンドプロンプトで入力した数値が変数widthに代入されます
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
-		double width = scanner.nextInt();
+		int width = scanner.nextInt();
 
 		System.out.println("図形の縦の長さを入力してください");
 
 		// コマンドプロンプトで入力した数値が変数heightに代入されます
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
-		double height = scanner.nextInt();
+		int height = scanner.nextInt();
 
 		System.out.println("図解の形を選択してください");
 		System.out.println("1:四角形   2:三角形");
@@ -30,12 +30,17 @@ public class PTra08_05 {
 		// コマンドプロンプトで入力した数値が変数heightに代入されます
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int choice = scanner.nextInt();
-
+        double area = 0;
 		// ★ 変数choiceの中が、1であれば四角形の面積を算出するメソッドを、2であれば三角形の面積を算出するメソッドを呼び出してください
 	       if (choice == 1) {
-            System.out.println(quadrangle(width, height));
+            area = quadrangle(width, height);
+            System.out.println("四角形の面積:" + area);
         } else if (choice == 2) {
-            System.out.println(triangle(width, height));
+            area = triangle(width, height);
+            System.out.println("三角形の面積:" + area);
+        }
+        else {
+        	System.out.println("正しい値を入力してください");
         }
 
 	}

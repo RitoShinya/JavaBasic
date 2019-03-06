@@ -28,22 +28,22 @@ public class PTra06_07 {
 			for (int j = 0; j < i; j++) {
 				System.out.print("■");
 			}
-			    for (int k = 0; k < 5-i ; k++) {
-		            System.out.print("□");
+			for (int k = i; k < 5; k++) {
+				System.out.print("□");
 			}
 			System.out.println();
 		}
-		for (int l = 0; l < 5; l++) {
-			for (int m = 0; m < 5-l; m++) {
+
+		for (int l = 5; l > 0; l--) {
+			for (int m = 0; m < l; m++) {
 				System.out.print("■");
 			}
-			    for (int n = 0; n < l ; n++) {
-		            System.out.print("□");
+			for (int n = l; n < 5; n++) {
+				System.out.print("□");
 			}
 
-		System.out.println();
+			System.out.println();
 		}
-
 
 	}
 }

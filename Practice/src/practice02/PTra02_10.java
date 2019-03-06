@@ -21,9 +21,11 @@ public class PTra02_10 {
 		 * ※ 日本円には小数点がありませんので、整数の値で出力してください(少数部分は切り捨て)
 		 * ※ プログラムは何行書いても良いです
 		 */
-		double sum;
-		sum= moneyInHand-coffee*2+snack*1.08;
-        System.out.println(sum);
+		int total = (coffee * 2) + snack; //合計の購入額
+		double tax = total * 0.08; //消費税の合計
+        int taxTruncation = (int)tax;
+        moneyInHand = moneyInHand - (total + taxTruncation);
+		System.out.println("所持金:" + moneyInHand);
 
 	}
 }

@@ -21,6 +21,6 @@ public class PTra13_02 {
              a.setName("勇者");
 
 		// ★ common.Heroインスタンスのキャラクター情報を表示してください
-          System.out.println(a.getName());
+          System.out.println(a.showParameter());
 	}
 }

@@ -28,5 +28,14 @@ public class PTra16_02 {
 		Float Fl = f;
 		Double Do = d;
 
+		System.out.println(Bo);
+		System.out.println(By);
+		System.out.println(Sh);
+		System.out.println(Ch);
+		System.out.println(In);
+		System.out.println(lo);
+		System.out.println(Fl);
+		System.out.println(Do);
+
 	}
 }

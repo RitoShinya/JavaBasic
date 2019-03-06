@@ -36,7 +36,7 @@ public class PTra17_03 {
 		 */
 
 		for (int i = 0; i < question.length; i++) {
-			while(true) {
+			while (true) {
 				try {
 					System.out.println("問題：" + (i + 1));
 					System.out.println(question[i]);

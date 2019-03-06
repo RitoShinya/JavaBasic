@@ -2,10 +2,10 @@ package practice14.common;
 
 public class DBCourse implements Course{
 
-	public String PREFIX = "【Eラーニング】";
+
 
 	public 	String getCourseName(){
-		return "【Eラーニング】DB基礎";
+		return PREFIX + "DB基礎";
 	}
 
 	public 	String[] getCourseUnit(){
